@@ -14,7 +14,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class ContactService {
-	  EDPOINT:string = 'http://www.mocky.io/v2/581335f71000004204abaf83';
+  EDPOINT: string = 'https://www.mocky.io/v2/581335f71000004204abaf83';
 
   constructor(private _http: HttpClient) { 
   }
